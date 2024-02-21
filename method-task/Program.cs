@@ -6,58 +6,32 @@
         {
             //Console.WriteLine("Hello, World!");
 
-            //Console.WriteLine(Calculate(4,3));
-            //Console.WriteLine(Arr(12,2,4,6,23));
-            //Console.WriteLine(Tek(5,10));
-            //Console.WriteLine(Quvv(6));
+            //Console.WriteLine(sadeMurrekeb(5));
         }
-        #region task-1
-        //static int Calculate(int a,int b)
-        //{
-        //    return a/b;
-        //}
-        #endregion
-        #region task-2
-        //static int Arr(params int[] nums)
-        //{
-        //    int sum = 0;
-        //    for (int i = 0; i < nums.Length; i++)
-        //    {
-        //        sum += nums[i];
-        //    }
-        //    return sum;
-        //}
-        #endregion
-        #region task-3
-        //static int Tek(int n,int m)
+        #region task-4
+        //static string sadeMurrekeb(double x)
         //{
         //    int count = 0;
-        //    for (int i = n; i < m; i++)
+        //    for (int i = 1; i <= x; i++)
         //    {
-        //        if (i % 2 == 1)
+        //        if (x % i == 0)
         //        {
         //            count++;
         //        }
         //    }
-        //    return count;
-        //}
-        #endregion
-        #region task-5      
-        //static string Quvv(double n)
-        //{
+        //    if (count > 2)
+        //    {
+        //        return "murekkeb";
+        //    }
+        //    else if (count == 1)
+        //    {
+        //        return "ne sade ne murekkeb";
+        //    }
+        //    else
+        //    {
+        //        return "sade";
+        //    }
 
-        //    while (n>1)
-        //    {
-        //        n /= 2;
-        //    }
-        //    if (n == 1)
-        //    {
-        //        return "quvvetidir";
-        //    }
-        //    else 
-        //    {
-        //        return "quvveti deyil";
-        //    }
         //}
         #endregion
 
